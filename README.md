@@ -56,21 +56,20 @@ O aplicativo segue uma arquitetura organizada para facilitar a escalabilidade e 
 │   │   │   │   │   ├── ApiService.kt
 │   │   │   │   │   ├── RetrofitClient.kt
 │   │   │   │   ├── /models/             # Modelos de dados (LoginRequest, ProductRequest, etc.)
-│   │   │   │   │   ├── LoginRequest.kt
-│   │   │   │   │   ├── LoginResponse.kt
-│   │   │   │   │   ├── ProductRequest.kt
-│   │   │   │   │   ├── ProductResponse.kt
-│   │   │   │   │   ├── RegisterRequest.kt
-│   │   │   │   │   ├── RegisterResponse.kt
-│   │   │   │   ├── /ui/                 # Classes das atividades e telas (MainActivity, LoginActivity, etc.)
+│   │   │   │   │   ├── Login.kt
+│   │   │   │   │   ├── Product.kt
+│   │   │   │   │   ├── Register.kt
+│   │   │   │   ├── /activity/                 # Classes das atividades e telas (MainActivity, LoginActivity, etc.)
 │   │   │   │   │   ├── MainActivity.kt
 │   │   │   │   │   ├── RegisterActivity.kt
 │   │   │   │   │   ├── AddProductActivity.kt
+│   │   │   │   │   ├── LoginActivity.kt
 │   │   │   │   │   ├── ProductListActivity.kt
 │   │   │   ├── /res/
 │   │   │   │   ├── /layout/             # Arquivos de layout XML
 │   │   │   │   │   ├── activity_main.xml
 │   │   │   │   │   ├── activity_register.xml
+│   │   │   │   │   ├── activity_login.xml
 │   │   │   │   │   ├── activity_add_product.xml
 │   │   │   │   │   ├── activity_list_products.xml
 │   │   │   │   ├── /drawable/           # Recursos gráficos, ícones
@@ -82,4 +81,4 @@ O aplicativo segue uma arquitetura organizada para facilitar a escalabilidade e 
 │   └── /libs/                           # Dependências externas (bibliotecas)
 │
 ├── /gradle/                             # Arquivos Gradle e configurações
-└── README.md  
+└── README.md   
